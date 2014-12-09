@@ -1,0 +1,267 @@
+html, body {
+    margin: 0 auto;
+    background: #f7b509;    
+    height:100%;
+}
+#contenedor {
+    margin-bottom: -10px;
+    min-height:100%;
+}
+/* HEADER */
+header {
+    height: 100px;
+    background-color: #726860;
+}
+#header-center {
+    width: 900px;
+    margin: 0 auto; 
+    font-family: 'NimbusSansBeckerTExtRegular';
+}
+#tituloWeb{
+    display:block;
+    float:left;	
+    margin-left: 10px;
+    line-height: 100px;
+    font-size: 45px;
+    color: black;
+    text-shadow: 4px 4px 2px rgba(150, 150, 150, 0.52);
+}
+#logo{
+    float:left;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+
+#inicio{
+    float: right;
+    color: black;
+    margin-right: 50px;
+    line-height: 100px;
+    font-size: 15px;
+    text-decoration: none;
+}
+#inicio:hover{
+    color: white;
+}
+
+/* BODY */
+#body {
+    font-family: "NimbusSansBeckerTExtRegular";  
+}
+
+#body-center{
+    margin: 0 auto;	
+    width: 900px;
+    padding-bottom: 50px;
+}
+/* CENTRO */
+#centro{
+    margin: 0 auto;	
+    width: 900px;
+    height: 130px;
+    background: #F9E7D6;
+}
+
+/* BUSQUEDA */
+#busqueda {
+    float: left;
+    padding: 10px;
+    padding-left: 50px;
+    width: 500px;
+}
+#tituloBusqueda{
+    display: block;
+    float: left;
+
+}
+#busqueda form{
+    clear: both;
+    float: left;
+    margin: 0;
+    width: 600px;
+    padding: 0;
+    margin-top: 10px;
+}
+
+#busqueda select {
+    min-width: 150px;
+    margin-right: 15px;
+}
+#busqueda #precio{
+    margin-left: 15px;
+}
+
+#busqueda #buscar{
+    margin-left: 100px;
+    background-color: #d39b9b;
+}
+#busqueda #buscar:hover{
+    color: white;
+    background-color: #7c6464;
+}
+
+#tituloBusqueda{
+    font-size: 18px;
+}
+
+.thumb {
+    height: 75px;
+    border: 1px solid #000;
+    margin: 10px 5px 0 0;
+}
+
+/* ACCESO */
+
+#acceso{
+    float: right;
+    width: 250px;
+    height: 70px;
+    margin: 0 auto;
+    margin-top: 25px;
+    font-family: "NimbusSansBeckerTLigRegular";
+    font-size: 15pt;
+    text-align: center;
+}
+#acceso a{
+    display:block;
+    text-decoration: none;
+    color: #000000;
+    padding-top: 10px;
+}
+
+#acceso a:hover{	
+    color: #0000FF;
+}
+
+/* RESULTADO */
+#resultado {
+    clear: both;
+    margin: 0 auto;	
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    width: 800px;
+    min-height: 400px;
+    background: #69B4C3;
+}
+
+.entrada{
+    display: block;
+    margin: 0;
+    margin-bottom: 15px;
+    height: 180px;
+    color: black;
+    text-decoration: none;
+    margin-bottom: 10px;
+    background-color: #cbcbcb;
+}
+.entrada:hover{
+    color: white;
+}
+
+.entrada img{
+    float: left;
+    height: 180px;   
+    max-width: 275px;
+}
+
+.descripcion{
+    width: 400px;
+    float: right;
+}
+
+.entrada .arriba{
+    margin: 0 auto;
+    padding-left: 10px;
+    height: 40px;
+    line-height: 40px;
+    overflow: hidden;
+}
+
+.entrada .centro{
+    margin: 0 auto;
+    padding-left: 10px;
+    height: 110px;
+    line-height: 50px;
+    overflow: hidden;
+}
+
+.entrada .abajo{
+    margin: 0 auto;
+    padding-left: 10px;
+    height: 30px;
+    bottom: -50px;
+    line-height: 30px;
+}
+
+.entrada .metros, .entrada .hab, .entrada .banos{
+    display: block;
+    float:left;
+    margin-right: 10px;
+}
+
+.entrada .hab:before{
+    content: "";
+    display: block;
+    float:right;
+    margin-left: 3px;
+    margin-top: 3px;
+    height: 23px;
+    width: 29px;
+    background-image: url(../img/iconos.png);
+    background-position: 0 0;
+}
+
+.entrada .banos:before{
+    content: "";
+    display: block;
+    float:right;
+    margin-left: 3px;
+    margin-top: 3px;
+    height: 23px;
+    width: 29px;
+    background-image: url(../img/iconos.png);
+    background-position: 0 -23px;
+}
+
+.gris{
+    color: #434343;
+}
+
+.entrada .precio{
+    float: right;
+    width: 125px;
+    height: 120px;
+    padding-top: 60px; 
+    text-align: center;
+    background: grey;
+    font-size: 22px;
+}
+#paginacion{
+    text-align: center;
+    background: grey;
+}
+#paginacion a, #paginacion a:visited{
+    color: aqua;
+    text-decoration: none;
+}
+#paginacion a:hover{    
+    color: blue;
+}
+/* FOOTER */
+footer{
+    width: 100%;
+    height: 55px;
+    margin-top: -50px;
+    background-color: #38312C;
+}
+
+#footer-center{
+    width: 900px;
+    height: 55px;
+    margin: 0 auto;
+    font-family: "NimbusSansBeckerTLigRegular";
+    font-size: 15pt;
+    text-align: center;
+    line-height: 50px;
+}
